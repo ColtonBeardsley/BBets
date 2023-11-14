@@ -52,8 +52,10 @@ print(birthdays1$mean-2*birthdays1$sd)
 print("The 95% confidence level goes from")
 print("to")
 print(birthdays1$mean+2*birthdays1$sd)
-
 ```
+
+Mr. Brownlow is generating a mean profit of $mean with a profit standard deviation of $sd. The 95% confidence interval spans from 225.2167 to 336.4333.
+
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
 
@@ -64,8 +66,6 @@ print(birthdays1$mean+2*birthdays1$sd)
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
-
-
 
 
 
