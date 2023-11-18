@@ -62,7 +62,8 @@ cat("Mr Brownlow is on average making $",central$mean," over the course of the e
 cat("95% Conficence Interval: Low:$",central$mean - 2*central$sd,"- High $", central$mean + 2*central$sd)
 ```
 
-Brownlow is generating a mean profit$mean with a profit standard deviation of $sd. The 95% confidence interval spans from 216 to 348.
+## Answer: Brownlow is making an average of 'r profit$mean' with a standard deviation of 'r profit$sd'.
+
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
@@ -104,7 +105,7 @@ for (i in 1:40){
 favstats(teachers)
 ```
 
-
+While achieving a precise 2:1 fair bet with Browlow isn't possible, adjusting the variable of the number of students brought us closest at 28. Although it may not consistently be zero, due to the constraint of working with whole numbers, this is the closest approximation we could attain.
 
 
 
