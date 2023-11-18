@@ -73,10 +73,8 @@ cat("95% Conficence Interval: Low:$",central$mean - 2*central$sd,"- High $", cen
 ```{r}
 teachers <- numeric (1000)
  for (i in 1:1000){
-   teachers [i] = BrLw(odds=4.38)
-}
+   teachers [i] = BrLw(odds=4.38)}
  favstats(teachers)
-
 ```
 
 First we conducted tests on the odds with a sample of 40 teachers. Despite numerous iterations, the odds remained unstable, prompting us to expand the sample to 1000 teachers. Following this increase, we reevaluated the odds.
@@ -105,9 +103,7 @@ for (i in 1:40){
 favstats(teachers)
 ```
 
-While achieving a precise 2:1 fair bet with Browlow isn't possible, adjusting the variable of the number of students brought us closest at 28. Although it may not consistently be zero, due to the constraint of working with whole numbers, this is the closest approximation we could attain.
-
-
+## Answer: Following experimentation with varying student numbers, we settled on setting the parameter numClass to 28. While this adjustment didn't precisely bring Brownlow's earnings to zero, it provided the closest values to zero in our analysis.
 
 # Discussion and Conclusion
 
